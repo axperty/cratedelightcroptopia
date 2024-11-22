@@ -8,18 +8,6 @@ import net.minecraft.world.item.BlockItem;
 public class ItemRegistry {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(CrateDelight.MOD_ID);
 
-    // Stacked Melons Item
-    public static final DeferredItem<BlockItem> STACKED_MELONS_ITEM = ITEMS.registerSimpleBlockItem("stacked_melons", BlockRegistry.STACKED_MELONS);
-
-    // Stacked Pumpkins Item
-    public static final DeferredItem<BlockItem> STACKED_PUMPKINS_ITEM = ITEMS.registerSimpleBlockItem("stacked_pumpkins", BlockRegistry.STACKED_PUMPKINS);
-
-    // Stacked Oak Logs Item
-    public static final DeferredItem<BlockItem> STACKED_OAK_LOGS_ITEM = ITEMS.registerSimpleBlockItem("stacked_oak_logs", BlockRegistry.STACKED_OAK_LOGS);
-
-    // Stacked Stripped Oak Logs Item
-    public static final DeferredItem<BlockItem> STACKED_STRIPPED_OAK_LOGS_ITEM = ITEMS.registerSimpleBlockItem("stacked_stripped_oak_logs", BlockRegistry.STACKED_STRIPPED_OAK_LOGS);
-
     // Carrot Crate Item
     public static final DeferredItem<BlockItem> CARROT_CRATE_ITEM = ITEMS.registerSimpleBlockItem("carrot_crate", BlockRegistry.CARROT_CRATE);
 

@@ -36,8 +36,6 @@ This mod adds thirteen new type of blocks to the game that are useful to save st
 - Sugar Bag
 - Gunpowder Bag
 - Cookie Bag
-- Stacked Melons
-- Stacked Pumpkins
 
 It also adds crates and bags for the following mods:
 

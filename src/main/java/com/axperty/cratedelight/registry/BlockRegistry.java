@@ -11,22 +11,6 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class BlockRegistry {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(CrateDelight.MOD_ID);
 
-    // Stacked Melons
-    public static final DeferredBlock<Block> STACKED_MELONS = BLOCKS.registerSimpleBlock("stacked_melons",
-            BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(MapColor.WOOD));
-
-    // Stacked Pumpkins
-    public static final DeferredBlock<Block> STACKED_PUMPKINS = BLOCKS.registerSimpleBlock("stacked_pumpkins",
-            BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(MapColor.WOOD));
-
-    // Stacked Oak Logs
-    public static final DeferredBlock<Block> STACKED_OAK_LOGS = BLOCKS.registerSimpleBlock("stacked_oak_logs",
-            BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(MapColor.WOOD));
-
-    // Stacked Stripped Oak Logs
-    public static final DeferredBlock<Block> STACKED_STRIPPED_OAK_LOGS = BLOCKS.registerSimpleBlock("stacked_stripped_oak_logs",
-            BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(MapColor.WOOD));
-
     // Carrot Crate
     public static final DeferredBlock<Block> CARROT_CRATE = BLOCKS.registerSimpleBlock("carrot_crate",
             BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(MapColor.WOOD));
