@@ -1,0 +1,35 @@
+﻿{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_pineapple": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "croptopia:pineapple"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "cratedelightcroptopia:pineapple_crate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_pineapple",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "cratedelightcroptopia:pineapple_crate"
+    ]
+  },
+  "sends_telemetry_event": false
+}

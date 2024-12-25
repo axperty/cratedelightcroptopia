@@ -1,0 +1,35 @@
+﻿{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_tea_leaves": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "croptopia:tea_leaves"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "cratedelightcroptopia:tea_leaves_bag"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_tea_leaves",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "cratedelightcroptopia:tea_leaves_bag"
+    ]
+  },
+  "sends_telemetry_event": false
+}

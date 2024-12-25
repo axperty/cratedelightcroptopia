@@ -1,0 +1,35 @@
+﻿{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_rutabaga": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "croptopia:rutabaga"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "cratedelightcroptopia:rutabaga_crate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_rutabaga",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "cratedelightcroptopia:rutabaga_crate"
+    ]
+  },
+  "sends_telemetry_event": false
+}

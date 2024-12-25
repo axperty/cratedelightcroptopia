@@ -60,6 +60,9 @@ configurations {
 
 dependencies {
     implementation "net.neoforged:neoforge:${neo_version}"
+    implementation "curse.maven:crate-delight-forge-958291:5929168"
+    implementation "curse.maven:croptopia-415438:5571647"
+    implementation "curse.maven:epherolib-885449:5549595"
 }
 
 tasks.withType(ProcessResources).configureEach {

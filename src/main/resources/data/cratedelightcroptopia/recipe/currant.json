@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cratedelightcroptopia:currant_bag"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "croptopia:currant"
+  }
+}

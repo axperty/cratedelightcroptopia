@@ -1,0 +1,18 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "croptopia:garlic"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "cratedelightcroptopia:garlic_crate"
+  }
+}

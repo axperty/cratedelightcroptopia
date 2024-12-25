@@ -1,0 +1,35 @@
+﻿{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_blackberry": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "croptopia:blackberry"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "cratedelightcroptopia:blackberry_crate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_blackberry",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "cratedelightcroptopia:blackberry_crate"
+    ]
+  },
+  "sends_telemetry_event": false
+}

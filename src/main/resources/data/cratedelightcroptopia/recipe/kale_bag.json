@@ -1,0 +1,18 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "croptopia:kale"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "cratedelightcroptopia:kale_bag"
+  }
+}
