@@ -4,13 +4,12 @@
 [![Discord](https://img.shields.io/discord/1194733791818821663?style=flat&logo=discord&logoColor=%23FFFFFF&label=Discord&labelColor=2D2C2C&color=%234e992e)](https://discord.gg/e2BQx4bbsU)
 [![PayPal](https://img.shields.io/badge/Donate%20on%20PayPal-0079C1?style=flat&logo=paypal)](https://paypal.me/kevgelhorn)
 
-![Crate Delight: Croptopia Compat](https://cdn.modrinth.com/data/9rlXSyLg/images/c741ee61d02d1d45dd85222e826e3e6dd787e837.png)
+![Crate Delight: Croptopia Compat](https://cdn.modrinth.com/data/W6Xlp26Z/images/2a6e8a58eabac85320c1a70fa1f1ffb6a63caa27.png)
 ***
 
 ### Overview
 
-Crate Delight is a mod for Farmer's Delight that adds more crates and bags to the game, letting the player save more storage and decorate their farm.
-This compatibility version adds support for the Croptopia mod.
+Crate Delight is a mod for Croptopia that adds more crates and bags to the game, letting the player save more storage and decorate their farm.
 
 ### Contributing
 
@@ -68,6 +67,7 @@ This mod adds many new type of blocks to the game that are useful to save storag
 
 **Bags:**
 
+*   Bag of Black Beans
 *   Bag of Blueberries
 *   Bag of Basil
 *   Bag of Cranberries
@@ -81,5 +81,3 @@ This mod adds many new type of blocks to the game that are useful to save storag
 *   Bag of Spinach
 *   Bag of Tea Leaves
 *   Bag of Almonds
-
-If you would like Crate Delight to have support for other mods, send your suggestions on [GitHub,](https://github.com/axperty/cratedelight/issues/new) or you can also join the [Discord server.](https://discord.gg/yweZ2agkDw)
