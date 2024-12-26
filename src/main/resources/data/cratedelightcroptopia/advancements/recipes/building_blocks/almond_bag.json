@@ -30,6 +30,5 @@
     "recipes": [
       "cratedelightcroptopia:almond_bag"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }
