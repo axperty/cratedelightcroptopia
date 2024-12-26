@@ -40,9 +40,10 @@ dependencies {
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-	modImplementation "curse.maven:crate-delight-fabric-957811:5947310"
-	modImplementation "curse.maven:croptopia-415438:5407353"
-	modImplementation "curse.maven:epherolib-885449:5407355"
+	modImplementation "curse.maven:crate-delight-fabric-957811:5929156"
+	modImplementation "curse.maven:croptopia-415438:4997461"
+	modImplementation "curse.maven:epherolib-885449:4949797"
+
 }
 
 processResources {
