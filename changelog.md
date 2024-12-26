@@ -8,4 +8,4 @@
 
 ***
 
-Send your suggestions or report any issues on [GitHub](https://github.com/axperty/cratedelight-croptopia/issues/new). Support Crate Delight: Croptopia Compat by [creating your own server](https://url-shortener.curseforge.com/p5i2k) or [donating on PayPal](https://paypal.me/kevgelhorn). 
+Send your suggestions or report any issues on [GitHub](https://github.com/axperty/cratedelight-croptopia/issues/new). Support Crate Delight: Croptopia by [creating your own server](https://url-shortener.curseforge.com/p5i2k) or [donating on PayPal](https://paypal.me/kevgelhorn). 
