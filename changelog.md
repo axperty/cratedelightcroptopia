@@ -1,4 +1,4 @@
-![Crate Delight: Croptopia Compat](https://cdn.modrinth.com/data/W6Xlp26Z/images/2a6e8a58eabac85320c1a70fa1f1ffb6a63caa27.png)
+![Crate Delight: Croptopia](https://cdn.modrinth.com/data/W6Xlp26Z/images/2a6e8a58eabac85320c1a70fa1f1ffb6a63caa27.png)
 
 ***
 
