@@ -1,14 +1,14 @@
 modLoader="javafml"
-loaderVersion="${loader_version_range}" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+loaderVersion="[41,)"
 license="${mod_license}"
 
 [[mods]]
-    modId="${mod_id}"
-    version="${mod_version}"
-    displayName="${mod_name}"
-    authors="${mod_authors}"
-    description="${mod_description}"
-    logoFile="assets/cratedelightcroptopia/logo.png"
+    modId="cratedelightcroptopia"
+    version="24.12.28-1.19-forge"
+    displayName="Crate Delight: Croptopia"
+    authors="Axperty"
+    description="A mod that adds crates and bags for the Croptopia mod."
+    logoFile="assets/cratedelight/logo.png"
 
 [[dependencies.cratedelightcroptopia]]
     modId="forge"
