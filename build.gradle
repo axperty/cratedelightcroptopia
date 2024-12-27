@@ -107,7 +107,7 @@ repositories {
 dependencies {
     minecraft 'net.minecraftforge:forge:1.19.2-43.1.0'
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
-    implementation fg.deobf("curse.maven:crate-delight-forge-958291:5929882")
+    implementation fg.deobf("curse.maven:crate-delight-forge-958291:6027858")
     implementation fg.deobf("curse.maven:croptopia-415438:4344770")
     implementation fg.deobf("curse.maven:epherolib-885449:4687620")
 }
