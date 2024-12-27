@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "cratedelightcroptopia",
-  "version": "24.12.27-1.20-fabric",
+  "version": "24.12.27-1.19-fabric",
   "name": "Crate Delight: Croptopia",
   "description": "A mod that adds crates and bags for the Croptopia mod.",
   "authors": [
@@ -19,9 +19,9 @@
     ]
   },
   "depends": {
-    "fabricloader": ">=0.14.21",
+    "fabricloader": ">=0.14.6",
     "fabric": "*",
-    "minecraft": ">=1.20",
+    "minecraft": ">=1.19",
     "java": ">=17",
     "cratedelight": "*",
     "croptopia": "*"

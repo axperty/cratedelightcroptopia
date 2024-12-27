@@ -1,6 +1,5 @@
 package com.axperty.cratedelightcroptopia;
 
-import com.axperty.cratedelightcroptopia.item.ModCreativeTab;
 import com.axperty.cratedelightcroptopia.registry.BlockRegistry;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -12,7 +11,6 @@ public class CrateDelightCroptopia implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        ModCreativeTab.registerItemGroups();
         BlockRegistry.registerModBlocks();
     }
 }
