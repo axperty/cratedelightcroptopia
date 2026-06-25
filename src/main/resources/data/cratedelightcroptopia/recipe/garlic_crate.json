@@ -1,4 +1,4 @@
-﻿{
+{
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
@@ -7,9 +7,7 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "croptopia:garlic"
-    }
+    "#": "croptopia:garlic"
   },
   "result": {
     "count": 1,

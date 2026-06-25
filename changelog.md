@@ -4,7 +4,7 @@
 
 ### ✨ What's New:
 
-- Say something here...
+- Added support for Minecraft 26.1.
 
 ***
 

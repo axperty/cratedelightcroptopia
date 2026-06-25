@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "cratedelightcroptopia:kale_bag"
-    }
+    "cratedelightcroptopia:kale_bag"
   ],
   "result": {
     "count": 9,

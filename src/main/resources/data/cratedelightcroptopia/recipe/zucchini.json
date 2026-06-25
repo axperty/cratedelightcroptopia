@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "cratedelightcroptopia:zucchini_crate"
-    }
+    "cratedelightcroptopia:zucchini_crate"
   ],
   "result": {
     "count": 9,

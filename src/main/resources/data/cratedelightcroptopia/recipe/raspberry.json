@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "cratedelightcroptopia:raspberry_crate"
-    }
+    "cratedelightcroptopia:raspberry_crate"
   ],
   "result": {
     "count": 9,

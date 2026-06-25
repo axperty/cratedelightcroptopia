@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "cratedelightcroptopia:bell_pepper_crate"
-    }
+    "cratedelightcroptopia:bell_pepper_crate"
   ],
   "result": {
     "count": 9,

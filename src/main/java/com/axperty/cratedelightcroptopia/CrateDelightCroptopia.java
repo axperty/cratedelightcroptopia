@@ -24,33 +24,10 @@ public class CrateDelightCroptopia
     public static final String MOD_ID = "cratedelightcroptopia";
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public CrateDelightCroptopia(IEventBus modEventBus, ModContainer modContainer)
-    {
-        modEventBus.addListener(this::commonSetup);
+    public CrateDelightCroptopia(IEventBus modEventBus, ModContainer modContainer) {
         BlockRegistry.BLOCKS.register(modEventBus);
         ItemRegistry.ITEMS.register(modEventBus);
         CreativeTabRegistry.CREATIVE_MODE_TABS.register(modEventBus);
-        NeoForge.EVENT_BUS.register(this);
-    }
-
-    private void commonSetup(final FMLCommonSetupEvent event)
-    {
-
-    }
-
-    @SubscribeEvent
-    public void onServerStarting(ServerStartingEvent event)
-    {
-
-    }
-
-    @EventBusSubscriber(modid = MOD_ID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-    public static class ClientModEvents
-    {
-        @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event)
-        {
-
-        }
+        LOGGER.info("Crate Delight: Croptopia loaded");
     }
 }

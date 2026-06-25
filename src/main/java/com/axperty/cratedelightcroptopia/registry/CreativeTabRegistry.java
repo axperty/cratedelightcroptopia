@@ -73,6 +73,5 @@ public class CreativeTabRegistry {
                 output.accept(BlockRegistry.SPINACH_BAG.get());
                 output.accept(BlockRegistry.TEA_LEAVES_BAG.get());
                 output.accept(BlockRegistry.ALMOND_BAG.get());
-
             }).build());
 }

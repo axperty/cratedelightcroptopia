@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "cratedelightcroptopia:green_onion_crate"
-    }
+    "cratedelightcroptopia:green_onion_crate"
   ],
   "result": {
     "count": 9,

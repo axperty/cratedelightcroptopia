@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "cratedelightcroptopia:rutabaga_crate"
-    }
+    "cratedelightcroptopia:rutabaga_crate"
   ],
   "result": {
     "count": 9,
