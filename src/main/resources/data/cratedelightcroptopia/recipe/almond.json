@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "cratedelightcroptopia:almond_bag"
-    }
+    "cratedelightcroptopia:almond_bag"
   ],
   "result": {
     "count": 9,

@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "cratedelightcroptopia:kiwi_crate"
-    }
+    "cratedelightcroptopia:kiwi_crate"
   ],
   "result": {
     "count": 9,

@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "cratedelightcroptopia:honeydew_crate"
-    }
+    "cratedelightcroptopia:honeydew_crate"
   ],
   "result": {
     "count": 9,

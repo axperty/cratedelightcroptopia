@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "cratedelightcroptopia:corn_crate"
-    }
+    "cratedelightcroptopia:corn_crate"
   ],
   "result": {
     "count": 9,

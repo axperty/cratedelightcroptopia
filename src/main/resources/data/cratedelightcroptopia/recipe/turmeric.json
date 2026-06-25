@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "cratedelightcroptopia:turmeric_crate"
-    }
+    "cratedelightcroptopia:turmeric_crate"
   ],
   "result": {
     "count": 9,

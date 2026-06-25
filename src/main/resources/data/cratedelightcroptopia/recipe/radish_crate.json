@@ -7,9 +7,7 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "croptopia:radish"
-    }
+    "#": "croptopia:radish"
   },
   "result": {
     "count": 1,

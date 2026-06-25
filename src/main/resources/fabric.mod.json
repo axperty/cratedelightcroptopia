@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "id": "cratedelightcroptopia",
-  "version": "24.12.27-1.21-fabric",
-  "name": "Crate Delight: Croptopia",
-  "description": "A mod that adds crates and bags for the Croptopia mod.",
+  "id": "${mod_id}",
+  "version": "${mod_version}",
+  "name": "${mod_name}",
+  "description": "${mod_description}",
   "authors": [
-    "Axperty"
+    "${mod_authors}"
   ],
   "contact": {
-    "homepage": "https://www.curseforge.com/members/axperty/projects"
+    "sources": "https://github.com/axperty/cratedelightcroptopia"
   },
-  "license": "MIT",
-  "icon": "assets/cratedelightcroptopia/logo.png",
+  "license": "${mod_license}",
+  "icon": "assets/${mod_id}/logo.png",
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -19,9 +19,9 @@
     ]
   },
   "depends": {
-    "fabricloader": ">=0.14.21",
-    "minecraft": "~1.21",
-    "java": ">=21",
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~26.1",
+    "java": ">=25",
     "fabric-api": "*",
     "cratedelight": "*",
     "croptopia": "*"

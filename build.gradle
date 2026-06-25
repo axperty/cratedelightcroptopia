@@ -1,5 +1,5 @@
 plugins {
-	id 'fabric-loom' version '1.6-SNAPSHOT'
+	id 'net.fabricmc.fabric-loom' version "${loom_version}"
 	id 'maven-publish'
 }
 
@@ -11,65 +11,58 @@ base {
 }
 
 repositories {
-	exclusiveContent {
-		forRepository {
-			maven {
-				url "https://cursemaven.com"
-			}
-		}
-		filter {
-			includeGroup "curse.maven"
-		}
+	maven {
+		url "https://cursemaven.com"
 	}
-}
-
-loom {
-	splitEnvironmentSourceSets()
-
-	mods {
-		"modid" {
-			sourceSet sourceSets.main
-			sourceSet sourceSets.client
-		}
-	}
-
 }
 
 dependencies {
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
-	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
-	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
-	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-	modImplementation "curse.maven:crate-delight-fabric-957811:5929160"
-	modImplementation "curse.maven:croptopia-415438:5571673"
-	modImplementation "curse.maven:epherolib-885449:5439828"
+	implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+	implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+	implementation "curse.maven:crate-delight-fabric-957811:7814856"
+	implementation "curse.maven:croptopia-415438:8085076"
+	implementation "curse.maven:epherolib-885449:7937978"
 }
 
+def expandProps = [
+		"mod_version": project.mod_version,
+		"mod_id": project.mod_id,
+		"mod_name": project.mod_name,
+		"mod_description": project.mod_description,
+		"mod_authors": project.mod_authors,
+		"mod_license": project.mod_license
+]
+
 processResources {
-	inputs.property "version", project.version
+	inputs.properties(expandProps)
 
 	filesMatching("fabric.mod.json") {
-		expand "version": project.version
+		expand(expandProps)
 	}
 }
 
 tasks.withType(JavaCompile).configureEach {
-	it.options.release = 21
+	it.options.release = 25
 }
 
 java {
-	withSourcesJar()
-
-	sourceCompatibility = JavaVersion.VERSION_21
-	targetCompatibility = JavaVersion.VERSION_21
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(25)
+	}
+	sourceCompatibility = JavaVersion.VERSION_25
+	targetCompatibility = JavaVersion.VERSION_25
 }
 
 jar {
+	inputs.property "archivesName", project.base.archivesName
+
 	from("LICENSE") {
-		rename { "${it}_${project.base.archivesName.get()}"}
+		rename { "${it}_${inputs.properties.archivesName}"}
 	}
 }
 
+// configure the maven publication
 publishing {
 	publications {
 		create("mavenJava", MavenPublication) {
@@ -78,7 +71,11 @@ publishing {
 		}
 	}
 
+	// See https://docs.gradle.org/current/userguide/publishing_maven.html for information on how to set up publishing.
 	repositories {
-
+		// Add repositories to publish to here.
+		// Notice: This block does NOT have the same function as the block in the top level.
+		// The repositories here will be used for publishing your artifact, not for
+		// retrieving dependencies.
 	}
 }
