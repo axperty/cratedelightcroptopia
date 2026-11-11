@@ -20,9 +20,9 @@ dependencies {
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
 	implementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
-	implementation "curse.maven:crate-delight-fabric-957811:8350282"
-	implementation "curse.maven:croptopia-415438:8908617"
-	implementation "curse.maven:epherolib-885449:8544496"
+	implementation "curse.maven:crate-delight-fabric-957811:8888244"
+	implementation "curse.maven:croptopia-415438:9413830"
+	implementation "curse.maven:epherolib-885449:8913898"
 }
 
 def expandProps = [

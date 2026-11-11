@@ -1,4 +1,4 @@
-﻿{
+{
   "parent": "minecraft:recipes/root",
   "criteria": {
     "has_turnip": {
@@ -12,18 +12,11 @@
         ]
       },
       "trigger": "minecraft:inventory_changed"
-    },
-    "has_the_recipe": {
-      "conditions": {
-        "recipe": "cratedelightcroptopia:turnip_crate"
-      },
-      "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_turnip",
-      "has_the_recipe"
+      "has_turnip"
     ]
   ],
   "rewards": {

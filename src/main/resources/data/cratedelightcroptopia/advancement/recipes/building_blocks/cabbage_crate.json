@@ -1,4 +1,4 @@
-﻿{
+{
   "parent": "minecraft:recipes/root",
   "criteria": {
     "has_cabbage": {
@@ -12,18 +12,11 @@
         ]
       },
       "trigger": "minecraft:inventory_changed"
-    },
-    "has_the_recipe": {
-      "conditions": {
-        "recipe": "cratedelightcroptopia:cabbage_crate"
-      },
-      "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_cabbage",
-      "has_the_recipe"
+      "has_cabbage"
     ]
   ],
   "rewards": {
