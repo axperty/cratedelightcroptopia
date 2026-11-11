@@ -146,46 +146,46 @@ public class BlockRegistry {
     public static final Block ZUCCHINI_CRATE = registerBlock("zucchini_crate", Block::new, Block.Properties.ofFullCopy(Blocks.OAK_PLANKS));
 
     // Black Bean Bag
-    public static final Block BLACK_BEAN_BAG = registerBlock("black_bean_bag", Block::new, Block.Properties.ofFullCopy(Blocks.WHITE_WOOL));
+    public static final Block BLACK_BEAN_BAG = registerBlock("black_bean_bag", Block::new, Block.Properties.ofFullCopy(Blocks.WOOL.white()));
 
     // Blueberry Bag
-    public static final Block BLUEBERRY_BAG = registerBlock("blueberry_bag", Block::new, Block.Properties.ofFullCopy(Blocks.WHITE_WOOL));
+    public static final Block BLUEBERRY_BAG = registerBlock("blueberry_bag", Block::new, Block.Properties.ofFullCopy(Blocks.WOOL.white()));
 
     // Basil Bag
-    public static final Block BASIL_BAG = registerBlock("basil_bag", Block::new, Block.Properties.ofFullCopy(Blocks.WHITE_WOOL));
+    public static final Block BASIL_BAG = registerBlock("basil_bag", Block::new, Block.Properties.ofFullCopy(Blocks.WOOL.white()));
 
     // Cranberry Bag
-    public static final Block CRANBERRY_BAG = registerBlock("cranberry_bag", Block::new, Block.Properties.ofFullCopy(Blocks.WHITE_WOOL));
+    public static final Block CRANBERRY_BAG = registerBlock("cranberry_bag", Block::new, Block.Properties.ofFullCopy(Blocks.WOOL.white()));
 
     // Currant Bag
-    public static final Block CURRANT_BAG = registerBlock("currant_bag", Block::new, Block.Properties.ofFullCopy(Blocks.WHITE_WOOL));
+    public static final Block CURRANT_BAG = registerBlock("currant_bag", Block::new, Block.Properties.ofFullCopy(Blocks.WOOL.white()));
 
     // Kale Bag
-    public static final Block KALE_BAG = registerBlock("kale_bag", Block::new, Block.Properties.ofFullCopy(Blocks.WHITE_WOOL));
+    public static final Block KALE_BAG = registerBlock("kale_bag", Block::new, Block.Properties.ofFullCopy(Blocks.WOOL.white()));
 
     // Oats Bag
-    public static final Block OATS_BAG = registerBlock("oats_bag", Block::new, Block.Properties.ofFullCopy(Blocks.WHITE_WOOL));
+    public static final Block OATS_BAG = registerBlock("oats_bag", Block::new, Block.Properties.ofFullCopy(Blocks.WOOL.white()));
 
     // Olive Bag
-    public static final Block OLIVE_BAG = registerBlock("olive_bag", Block::new, Block.Properties.ofFullCopy(Blocks.WHITE_WOOL));
+    public static final Block OLIVE_BAG = registerBlock("olive_bag", Block::new, Block.Properties.ofFullCopy(Blocks.WOOL.white()));
 
     // Peanut Bag
-    public static final Block PEANUT_BAG = registerBlock("peanut_bag", Block::new, Block.Properties.ofFullCopy(Blocks.WHITE_WOOL));
+    public static final Block PEANUT_BAG = registerBlock("peanut_bag", Block::new, Block.Properties.ofFullCopy(Blocks.WOOL.white()));
 
     // Rice Bag
-    public static final Block RICE_BAG = registerBlock("rice_bag", Block::new, Block.Properties.ofFullCopy(Blocks.WHITE_WOOL));
+    public static final Block RICE_BAG = registerBlock("rice_bag", Block::new, Block.Properties.ofFullCopy(Blocks.WOOL.white()));
 
     // Soybeans Bag
-    public static final Block SOYBEANS_BAG = registerBlock("soybeans_bag", Block::new, Block.Properties.ofFullCopy(Blocks.WHITE_WOOL));
+    public static final Block SOYBEANS_BAG = registerBlock("soybeans_bag", Block::new, Block.Properties.ofFullCopy(Blocks.WOOL.white()));
 
     // Spinach Bag
-    public static final Block SPINACH_BAG = registerBlock("spinach_bag", Block::new, Block.Properties.ofFullCopy(Blocks.WHITE_WOOL));
+    public static final Block SPINACH_BAG = registerBlock("spinach_bag", Block::new, Block.Properties.ofFullCopy(Blocks.WOOL.white()));
 
     // Tea Leaves Bag
-    public static final Block TEA_LEAVES_BAG = registerBlock("tea_leaves_bag", Block::new, Block.Properties.ofFullCopy(Blocks.WHITE_WOOL));
+    public static final Block TEA_LEAVES_BAG = registerBlock("tea_leaves_bag", Block::new, Block.Properties.ofFullCopy(Blocks.WOOL.white()));
 
     // Almond Bag
-    public static final Block ALMOND_BAG = registerBlock("almond_bag", Block::new, Block.Properties.ofFullCopy(Blocks.WHITE_WOOL));
+    public static final Block ALMOND_BAG = registerBlock("almond_bag", Block::new, Block.Properties.ofFullCopy(Blocks.WOOL.white()));
 
     private static Block registerBlock(String path, Function<BlockBehaviour.Properties, Block> factory, BlockBehaviour.Properties settings) {
         final Identifier identifier = Identifier.fromNamespaceAndPath(CrateDelightCroptopia.MODID, path);

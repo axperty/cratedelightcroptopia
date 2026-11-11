@@ -20,9 +20,9 @@ dependencies {
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
 	implementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
-	implementation "curse.maven:crate-delight-fabric-957811:7814856"
-	implementation "curse.maven:croptopia-415438:8085076"
-	implementation "curse.maven:epherolib-885449:7937978"
+	implementation "curse.maven:crate-delight-fabric-957811:8350282"
+	implementation "curse.maven:croptopia-415438:8908617"
+	implementation "curse.maven:epherolib-885449:8544496"
 }
 
 def expandProps = [
@@ -47,9 +47,6 @@ tasks.withType(JavaCompile).configureEach {
 }
 
 java {
-	toolchain {
-		languageVersion = JavaLanguageVersion.of(25)
-	}
 	sourceCompatibility = JavaVersion.VERSION_25
 	targetCompatibility = JavaVersion.VERSION_25
 }
