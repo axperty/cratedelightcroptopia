@@ -185,58 +185,58 @@ public class BlockRegistry {
 
     // Black Bean Bag
     public static final DeferredBlock<Block> BLACK_BEAN_BAG = BLOCKS.registerBlock("black_bean_bag", Block::new,
-            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).mapColor(MapColor.WOOD));
+            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WOOL.white()).mapColor(MapColor.WOOD));
 
     // Blueberry Bag
     public static final DeferredBlock<Block> BLUEBERRY_BAG = BLOCKS.registerBlock("blueberry_bag", Block::new,
-            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).mapColor(MapColor.WOOD));
+            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WOOL.white()).mapColor(MapColor.WOOD));
 
     // Basil Bag
     public static final DeferredBlock<Block> BASIL_BAG = BLOCKS.registerBlock("basil_bag", Block::new,
-            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).mapColor(MapColor.WOOD));
+            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WOOL.white()).mapColor(MapColor.WOOD));
 
     // Cranberry Bag
     public static final DeferredBlock<Block> CRANBERRY_BAG = BLOCKS.registerBlock("cranberry_bag", Block::new,
-            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).mapColor(MapColor.WOOD));
+            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WOOL.white()).mapColor(MapColor.WOOD));
 
     // Currant Bag
     public static final DeferredBlock<Block> CURRANT_BAG = BLOCKS.registerBlock("currant_bag", Block::new,
-            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).mapColor(MapColor.WOOD));
+            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WOOL.white()).mapColor(MapColor.WOOD));
 
     // Kale Bag
     public static final DeferredBlock<Block> KALE_BAG = BLOCKS.registerBlock("kale_bag", Block::new,
-            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).mapColor(MapColor.WOOD));
+            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WOOL.white()).mapColor(MapColor.WOOD));
 
     // Oats Bag
     public static final DeferredBlock<Block> OATS_BAG = BLOCKS.registerBlock("oats_bag", Block::new,
-            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).mapColor(MapColor.WOOD));
+            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WOOL.white()).mapColor(MapColor.WOOD));
 
     // Olive Bag
     public static final DeferredBlock<Block> OLIVE_BAG = BLOCKS.registerBlock("olive_bag", Block::new,
-            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).mapColor(MapColor.WOOD));
+            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WOOL.white()).mapColor(MapColor.WOOD));
 
     // Peanut Bag
     public static final DeferredBlock<Block> PEANUT_BAG = BLOCKS.registerBlock("peanut_bag", Block::new,
-            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).mapColor(MapColor.WOOD));
+            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WOOL.white()).mapColor(MapColor.WOOD));
 
     // Rice Bag
     public static final DeferredBlock<Block> RICE_BAG = BLOCKS.registerBlock("rice_bag", Block::new,
-            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).mapColor(MapColor.WOOD));
+            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WOOL.white()).mapColor(MapColor.WOOD));
 
     // Soybeans Bag
     public static final DeferredBlock<Block> SOYBEANS_BAG = BLOCKS.registerBlock("soybeans_bag", Block::new,
-            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).mapColor(MapColor.WOOD));
+            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WOOL.white()).mapColor(MapColor.WOOD));
 
     // Spinach Bag
     public static final DeferredBlock<Block> SPINACH_BAG = BLOCKS.registerBlock("spinach_bag", Block::new,
-            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).mapColor(MapColor.WOOD));
+            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WOOL.white()).mapColor(MapColor.WOOD));
 
     // Tea Leaves Bag
     public static final DeferredBlock<Block> TEA_LEAVES_BAG = BLOCKS.registerBlock("tea_leaves_bag", Block::new,
-            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).mapColor(MapColor.WOOD));
+            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WOOL.white()).mapColor(MapColor.WOOD));
 
     // Almond Bag
     public static final DeferredBlock<Block> ALMOND_BAG = BLOCKS.registerBlock("almond_bag", Block::new,
-            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).mapColor(MapColor.WOOD));
+            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WOOL.white()).mapColor(MapColor.WOOD));
 
 }
