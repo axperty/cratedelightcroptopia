@@ -1,4 +1,4 @@
-﻿{
+{
   "parent": "minecraft:recipes/root",
   "criteria": {
     "has_tomatillo": {
@@ -15,7 +15,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cratedelightcroptopia:tomatillo_crate"
+        "recipes": [
+          "cratedelightcroptopia:tomatillo_crate"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

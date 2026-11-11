@@ -1,4 +1,4 @@
-﻿{
+{
   "parent": "minecraft:recipes/root",
   "criteria": {
     "has_sweetpotato": {
@@ -15,7 +15,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cratedelightcroptopia:sweet_potato_crate"
+        "recipes": [
+          "cratedelightcroptopia:sweet_potato_crate"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

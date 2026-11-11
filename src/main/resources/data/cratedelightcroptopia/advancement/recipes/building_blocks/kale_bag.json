@@ -1,4 +1,4 @@
-﻿{
+{
   "parent": "minecraft:recipes/root",
   "criteria": {
     "has_kale": {
@@ -15,7 +15,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cratedelightcroptopia:kale_bag"
+        "recipes": [
+          "cratedelightcroptopia:kale_bag"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

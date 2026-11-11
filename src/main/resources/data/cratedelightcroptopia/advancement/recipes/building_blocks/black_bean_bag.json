@@ -15,7 +15,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cratedelightcroptopia:black_bean_bag"
+        "recipes": [
+          "cratedelightcroptopia:black_bean_bag"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

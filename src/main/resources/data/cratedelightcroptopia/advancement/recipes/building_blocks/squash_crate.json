@@ -1,4 +1,4 @@
-﻿{
+{
   "parent": "minecraft:recipes/root",
   "criteria": {
     "has_squash": {
@@ -15,7 +15,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cratedelightcroptopia:squash_crate"
+        "recipes": [
+          "cratedelightcroptopia:squash_crate"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

@@ -1,4 +1,4 @@
-﻿{
+{
   "parent": "minecraft:recipes/root",
   "criteria": {
     "has_barley": {
@@ -15,7 +15,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cratedelightcroptopia:barley_crate"
+        "recipes": [
+          "cratedelightcroptopia:barley_crate"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

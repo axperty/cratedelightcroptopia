@@ -1,4 +1,4 @@
-﻿{
+{
   "parent": "minecraft:recipes/root",
   "criteria": {
     "has_corn": {
@@ -15,7 +15,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cratedelightcroptopia:corn_crate"
+        "recipes": [
+          "cratedelightcroptopia:corn_crate"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

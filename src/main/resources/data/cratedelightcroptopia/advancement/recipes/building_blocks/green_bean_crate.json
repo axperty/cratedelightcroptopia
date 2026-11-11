@@ -1,4 +1,4 @@
-﻿{
+{
   "parent": "minecraft:recipes/root",
   "criteria": {
     "has_greenbean": {
@@ -15,7 +15,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cratedelightcroptopia:green_bean_crate"
+        "recipes": [
+          "cratedelightcroptopia:green_bean_crate"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

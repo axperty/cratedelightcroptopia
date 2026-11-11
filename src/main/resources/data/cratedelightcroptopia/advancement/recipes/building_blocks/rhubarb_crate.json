@@ -1,4 +1,4 @@
-﻿{
+{
   "parent": "minecraft:recipes/root",
   "criteria": {
     "has_rhubarb": {
@@ -15,7 +15,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cratedelightcroptopia:rhubarb_crate"
+        "recipes": [
+          "cratedelightcroptopia:rhubarb_crate"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

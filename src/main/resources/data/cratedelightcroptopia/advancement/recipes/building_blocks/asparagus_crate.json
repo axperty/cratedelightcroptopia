@@ -1,4 +1,4 @@
-﻿{
+{
   "parent": "minecraft:recipes/root",
   "criteria": {
     "has_asparagus": {
@@ -15,7 +15,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cratedelightcroptopia:asparagus_crate"
+        "recipes": [
+          "cratedelightcroptopia:asparagus_crate"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

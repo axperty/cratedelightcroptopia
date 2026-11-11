@@ -1,4 +1,4 @@
-﻿{
+{
   "parent": "minecraft:recipes/root",
   "criteria": {
     "has_turmeric": {
@@ -15,7 +15,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cratedelightcroptopia:turmeric_crate"
+        "recipes": [
+          "cratedelightcroptopia:turmeric_crate"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

@@ -1,4 +1,4 @@
-﻿{
+{
   "parent": "minecraft:recipes/root",
   "criteria": {
     "has_blueberry": {
@@ -15,7 +15,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cratedelightcroptopia:blueberry_bag"
+        "recipes": [
+          "cratedelightcroptopia:blueberry_bag"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

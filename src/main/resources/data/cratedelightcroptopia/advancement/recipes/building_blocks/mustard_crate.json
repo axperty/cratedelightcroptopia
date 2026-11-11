@@ -1,4 +1,4 @@
-﻿{
+{
   "parent": "minecraft:recipes/root",
   "criteria": {
     "has_mustard": {
@@ -15,7 +15,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cratedelightcroptopia:mustard_crate"
+        "recipes": [
+          "cratedelightcroptopia:mustard_crate"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

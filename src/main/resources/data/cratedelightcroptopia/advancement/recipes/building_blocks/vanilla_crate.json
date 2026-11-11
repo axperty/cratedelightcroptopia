@@ -1,4 +1,4 @@
-﻿{
+{
   "parent": "minecraft:recipes/root",
   "criteria": {
     "has_vanilla": {
@@ -15,7 +15,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cratedelightcroptopia:vanilla_crate"
+        "recipes": [
+          "cratedelightcroptopia:vanilla_crate"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

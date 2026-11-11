@@ -1,4 +1,4 @@
-﻿{
+{
   "parent": "minecraft:recipes/root",
   "criteria": {
     "has_saguaro": {
@@ -15,7 +15,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cratedelightcroptopia:saguaro_crate"
+        "recipes": [
+          "cratedelightcroptopia:saguaro_crate"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

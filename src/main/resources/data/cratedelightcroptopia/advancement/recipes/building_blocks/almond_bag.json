@@ -1,4 +1,4 @@
-﻿{
+{
   "parent": "minecraft:recipes/root",
   "criteria": {
     "has_almond": {
@@ -15,7 +15,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cratedelightcroptopia:almond_bag"
+        "recipes": [
+          "cratedelightcroptopia:almond_bag"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

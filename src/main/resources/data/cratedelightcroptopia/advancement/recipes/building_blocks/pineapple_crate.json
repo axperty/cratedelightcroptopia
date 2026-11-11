@@ -1,4 +1,4 @@
-﻿{
+{
   "parent": "minecraft:recipes/root",
   "criteria": {
     "has_pineapple": {
@@ -15,7 +15,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cratedelightcroptopia:pineapple_crate"
+        "recipes": [
+          "cratedelightcroptopia:pineapple_crate"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

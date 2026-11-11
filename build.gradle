@@ -1,7 +1,7 @@
 plugins {
     id 'java-library'
     id 'maven-publish'
-    id 'net.neoforged.gradle.userdev' version '7.1.38'
+    id 'net.neoforged.gradle.userdev' version '7.1.39'
 }
 
 tasks.named('wrapper', Wrapper).configure {
@@ -62,9 +62,9 @@ configurations {
 
 dependencies {
     implementation "net.neoforged:neoforge:${neo_version}"
-    implementation "curse.maven:crate-delight-forge-958291:8350335"
-    implementation "curse.maven:croptopia-415438:8908615"
-    implementation "curse.maven:epherolib-885449:8544497"
+    implementation "curse.maven:crate-delight-forge-958291:8891171"
+    implementation "curse.maven:croptopia-415438:9413826"
+    implementation "curse.maven:epherolib-885449:8913865"
 }
 
 tasks.withType(ProcessResources).configureEach {

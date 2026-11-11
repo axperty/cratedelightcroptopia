@@ -1,4 +1,4 @@
-﻿{
+{
   "parent": "minecraft:recipes/root",
   "criteria": {
     "has_garlic": {
@@ -15,7 +15,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cratedelightcroptopia:garlic_crate"
+        "recipes": [
+          "cratedelightcroptopia:garlic_crate"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

@@ -1,4 +1,4 @@
-﻿{
+{
   "parent": "minecraft:recipes/root",
   "criteria": {
     "has_chile_pepper": {
@@ -15,7 +15,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cratedelightcroptopia:chile_pepper_crate"
+        "recipes": [
+          "cratedelightcroptopia:chile_pepper_crate"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

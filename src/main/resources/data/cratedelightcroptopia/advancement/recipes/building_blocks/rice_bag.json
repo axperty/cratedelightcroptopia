@@ -1,4 +1,4 @@
-﻿{
+{
   "parent": "minecraft:recipes/root",
   "criteria": {
     "has_rice": {
@@ -15,7 +15,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cratedelightcroptopia:rice_bag"
+        "recipes": [
+          "cratedelightcroptopia:rice_bag"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

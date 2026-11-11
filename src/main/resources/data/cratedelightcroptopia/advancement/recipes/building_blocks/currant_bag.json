@@ -1,4 +1,4 @@
-﻿{
+{
   "parent": "minecraft:recipes/root",
   "criteria": {
     "has_currant": {
@@ -15,7 +15,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cratedelightcroptopia:currant_bag"
+        "recipes": [
+          "cratedelightcroptopia:currant_bag"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

@@ -1,4 +1,4 @@
-﻿{
+{
   "parent": "minecraft:recipes/root",
   "criteria": {
     "has_cauliflower": {
@@ -15,7 +15,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cratedelightcroptopia:cauliflower_crate"
+        "recipes": [
+          "cratedelightcroptopia:cauliflower_crate"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

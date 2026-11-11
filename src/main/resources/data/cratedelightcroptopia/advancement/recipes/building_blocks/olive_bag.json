@@ -1,4 +1,4 @@
-﻿{
+{
   "parent": "minecraft:recipes/root",
   "criteria": {
     "has_olive": {
@@ -15,7 +15,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cratedelightcroptopia:olive_bag"
+        "recipes": [
+          "cratedelightcroptopia:olive_bag"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

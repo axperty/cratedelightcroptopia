@@ -1,4 +1,4 @@
-﻿{
+{
   "parent": "minecraft:recipes/root",
   "criteria": {
     "has_hops": {
@@ -15,7 +15,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cratedelightcroptopia:hops_crate"
+        "recipes": [
+          "cratedelightcroptopia:hops_crate"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

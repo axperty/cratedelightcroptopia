@@ -1,4 +1,4 @@
-﻿{
+{
   "parent": "minecraft:recipes/root",
   "criteria": {
     "has_celery": {
@@ -15,7 +15,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cratedelightcroptopia:celery_crate"
+        "recipes": [
+          "cratedelightcroptopia:celery_crate"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

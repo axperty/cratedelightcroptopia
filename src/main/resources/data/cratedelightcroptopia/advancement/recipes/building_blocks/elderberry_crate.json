@@ -1,4 +1,4 @@
-﻿{
+{
   "parent": "minecraft:recipes/root",
   "criteria": {
     "has_elderberry": {
@@ -15,7 +15,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cratedelightcroptopia:elderberry_crate"
+        "recipes": [
+          "cratedelightcroptopia:elderberry_crate"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

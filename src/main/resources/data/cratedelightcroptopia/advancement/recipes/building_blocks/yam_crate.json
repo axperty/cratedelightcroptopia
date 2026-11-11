@@ -1,4 +1,4 @@
-﻿{
+{
   "parent": "minecraft:recipes/root",
   "criteria": {
     "has_yam": {
@@ -15,7 +15,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cratedelightcroptopia:yam_crate"
+        "recipes": [
+          "cratedelightcroptopia:yam_crate"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

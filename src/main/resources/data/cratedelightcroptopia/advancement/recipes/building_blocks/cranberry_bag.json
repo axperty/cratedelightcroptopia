@@ -1,4 +1,4 @@
-﻿{
+{
   "parent": "minecraft:recipes/root",
   "criteria": {
     "has_cranberry": {
@@ -15,7 +15,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cratedelightcroptopia:cranberry_bag"
+        "recipes": [
+          "cratedelightcroptopia:cranberry_bag"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }
